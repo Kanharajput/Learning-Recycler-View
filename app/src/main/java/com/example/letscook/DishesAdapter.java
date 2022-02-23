@@ -60,11 +60,11 @@ public class DishesAdapter extends RecyclerView.Adapter<DishesAdapter.DishesHold
 
         @Override
         public void onClick(View v) {
-            onNameClicked.onNameClick();
+            onNameClicked.onNameClick(getAdapterPosition());
         }
     }
 
     public interface OnNameClicked {
-        public void onNameClick();
+        public void onNameClick(int position);
     }
 }

@@ -12,6 +12,7 @@ import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity implements DishesAdapter.OnNameClicked {
 
+    public static final String MainExtra = "com.example.letscook.MainActivity";
     private String dishes_name[];
     private String dishes_description[];
     private RecyclerView recyclerView;
@@ -32,8 +33,10 @@ public class MainActivity extends AppCompatActivity implements DishesAdapter.OnN
     }
 
     @Override
-    public void onNameClick() {
+    public void onNameClick(int position) {
+        String clicked_dish = dishes_name[position];
         Intent intent = new Intent(this,FullRecipe.class);
+        intent.putExtra(MainExtra,clicked_dish);
         startActivity(intent);
     }
 }
