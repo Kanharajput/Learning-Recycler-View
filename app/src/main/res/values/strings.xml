@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Let\'s Cook</string>
+    <string-array name="dishes_name">
+        <item>gulab_jamun</item>
+        <item>rashBari</item>
+        <item>dalBati</item>
+        <item>gajar Halwa</item>
+        <item>Kachori</item>
+        <item>Samosa</item>
+        <item>Aam Ras</item>
+        <item>Halwa</item>
+        <item>Pani Puri</item>
+        <item>Noodles</item>
+    </string-array>
+
+    <string-array name="dishes_description">
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+        <item>Gulab Jamun is a very popular Indian sweet. There are some versions of making it with khoya, milk powder, bread or sweet potatoes.Indeed it is a favorite Indian sweet for many of us. In parties, weddings and even in an Indian dinner meal, gulab jamun happens to be one of the sweets served after the meals.</item>
+    </string-array>
+
+</resources>
