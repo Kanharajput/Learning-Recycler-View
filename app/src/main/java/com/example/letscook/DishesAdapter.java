@@ -14,18 +14,20 @@ public class DishesAdapter extends RecyclerView.Adapter<DishesAdapter.DishesHold
     private String[] mdishes_name;
     private String[] mdishes_discription;
     private LayoutInflater mlayoutInflator;
+    private OnNameClicked onNameClicked;
 
-    public DishesAdapter(Context context, String[] mdishes_name, String[] mdishes_discription) {
+    public DishesAdapter(Context context, String[] mdishes_name, String[] mdishes_discription, OnNameClicked onNameClicked) {
         mlayoutInflator = LayoutInflater.from(context);
         this.mdishes_name = mdishes_name;
         this.mdishes_discription = mdishes_discription;
+        this.onNameClicked = onNameClicked;
     }
 
     @NonNull
     @Override
     public DishesHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = mlayoutInflator.inflate(R.layout.dishes_home_layout,parent,false);
-        return new DishesHolder(itemView) ;
+        return new DishesHolder(itemView,onNameClicked) ;
     }
 
     @Override
@@ -41,16 +43,28 @@ public class DishesAdapter extends RecyclerView.Adapter<DishesAdapter.DishesHold
         return mdishes_name.length;
     }
 
-    public class DishesHolder extends RecyclerView.ViewHolder {
+    public class DishesHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public TextView dish_discription;
         public TextView dish_name;
+        OnNameClicked onNameClicked;
 
-        public DishesHolder(@NonNull View itemView) {
+        public DishesHolder(@NonNull View itemView,OnNameClicked onNameClicked) {
             super(itemView);
 
             dish_name = itemView.findViewById(R.id.dish_name);
             dish_discription = itemView.findViewById(R.id.dish_disciption);
+            this.onNameClicked = onNameClicked;
+            itemView.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View v) {
+            onNameClicked.onNameClick();
+        }
+    }
+
+    public interface OnNameClicked {
+        public void onNameClick();
     }
 }
